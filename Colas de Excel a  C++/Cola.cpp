@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "Cola.h"
 
 int Cola :: colaVacia()
@@ -26,7 +27,7 @@ int Cola :: quitar()
 {
     if (colaVacia())
     {
-    	printf("\n\n\tCola vacía, no se puede extraer");
+    	printf("\n\n\tCola vacÃ­a, no se puede extraer");
 	}
         
     int aux = frente -> numero;
@@ -40,7 +41,7 @@ int Cola :: frenteCola()
 {
     if (colaVacia())
     {
-    	printf("\n\n\tCola vacía");
+    	printf("\n\n\tCola vacÃ­a");
 	}
 	
     return frente->numero;
